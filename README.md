@@ -13,16 +13,17 @@
 - [Contact](#contact) (Optional)
 
 ## Repository Structure
+```
 your-repo-name/ ├── README.md 
                 ├── coin_simulation_notebook.ipynb # Your Jupyter Notebook file 
                 ├── coin_simulation_script.py # Optional: if you create a separate script 
-                ├── images/ # Directory for plots and figures │ 
+                └── images/ # Directory for plots and figures │ 
                     ├── histogram_fair_coin.png │ 
                     ├── proportion_fair_coin.png │ 
                     ├── histogram_biased_coin.png │ 
                     ├── proportion_biased_coin.png 
                     └── requirements.txt # File listing dependencies (optional but recommended)
-
+```
 
 ## Description
 This project explores fundamental probability and statistical concepts through the simulation and analysis of coin flips using Python, specifically leveraging the `numpy` and `matplotlib` libraries. The project demonstrates how simulations can be used to understand theoretical probability distributions and the Law of Large Numbers.
