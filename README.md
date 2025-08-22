@@ -1,4 +1,4 @@
-# Project Title: Coin Flip Simulation & Analysis
+# Coin Flip Simulation & Analysis
 
 ## Table of Contents
 
@@ -14,15 +14,15 @@
 
 ## Repository Structure
 ```
-your-repo-name/ ├── README.md 
-                ├── coin_simulation_notebook.ipynb # Your Jupyter Notebook file 
-                ├── coin_simulation_script.py # Optional: if you create a separate script 
-                └── images/ # Directory for plots and figures │ 
-                    ├── histogram_fair_coin.png │ 
-                    ├── proportion_fair_coin.png │ 
-                    ├── histogram_biased_coin.png │ 
-                    ├── proportion_biased_coin.png 
-                    └── requirements.txt # File listing dependencies (optional but recommended)
+coin_flip_simulation_and_analysis/  ├── README.md 
+                                    ├── coin_flip_simulation_and_analysis.ipynb # Your Jupyter Notebook file 
+                                    ├── coin_flip_simulation_and_analysis # separate script 
+                                    └── images/ # Directory for plots and figures │ 
+                                        ├── histogram_fair_coin.png │ 
+                                        ├── proportion_fair_coin.png │ 
+                                        ├── histogram_biased_coin.png │ 
+                                        ├── proportion_biased_coin.png 
+                                        └── requirements.txt # File listing dependencies (optional but recommended)
 ```
 
 ## Description
@@ -41,8 +41,8 @@ To run this notebook or script locally, you will need Python installed. It is re
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/your_username/your_repo_name.git
-    cd your_repo_name
+    git clone https://github.com/josearevalobezic/coin_flip_simulation_and_analysis.git
+    cd coin_flip_simulation_and_analysis
     ```
 2.  Install the required libraries. If you have a `requirements.txt` file, you can do this with pip:
     ```bash
@@ -56,10 +56,10 @@ To run this notebook or script locally, you will need Python installed. It is re
 ## Usage
 You can interact with the analysis in two ways:
 
-1.  **Using the Jupyter Notebook:** Open the `coin_simulation_notebook.ipynb` file in a Jupyter environment (like JupyterLab, Jupyter Notebook, or Google Colab). You can run the cells sequentially to see the simulations and visualizations.
-2.  **Running the Python Script (if created):** Execute the `coin_simulation_script.py` file from your terminal:
+1.  **Using the Jupyter Notebook:** Open the `coin_flip_simulation_and_analysis.ipynb` file in a Jupyter environment (like JupyterLab, Jupyter Notebook, or Google Colab). You can run the cells sequentially to see the simulations and visualizations.
+2.  **Running the Python Script (if created):** Execute the `coin_flip_simulation_and_analysis.py` file from your terminal:
     ```bash
-    python coin_simulation_script.py
+    python coin_flip_simulation_and_analysis.py
     ```
     This will run the simulations and display or save the generated plots.
 
@@ -73,8 +73,6 @@ Feel free to modify the parameters within the notebook or script (e.g., number o
 ## Conclusions
 This project successfully demonstrates the use of Python, NumPy, and Matplotlib to simulate coin flips and visualize fundamental statistical principles. The simulations provide empirical evidence for the expected outcomes of random events and illustrate the powerful concept of the Law of Large Numbers, showing how observed frequencies stabilize around theoretical probabilities over many trials. This analysis serves as a foundational example of how computational tools can be applied to understand probabilistic phenomena.
 
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details. (You might want to add a LICENSE file to your repository)
 
 ## Contact
-[Your Name] - [Your Email] - [Link to your GitHub Profile] - [Link to your LinkedIn Profile (Optional)]
+[José Arévalo Bezic] - [jarevalobezic@gmail.com] - [https://github.com/josearevalobezic] - [www.linkedin.com/in/jarevalo-bezic]
