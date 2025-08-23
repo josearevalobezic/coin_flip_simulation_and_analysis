@@ -11,7 +11,7 @@ if coin == 0:
 else:
   print("tails")
 
-#analizando  flipping fair coins distribution
+#analyzing  flipping fair coins distribution
 
 #listing final tails count on each experiment
 final_tails = []
@@ -86,7 +86,7 @@ plt.xlabel("Number of Tails in 10 Flips")
 plt.ylabel("Frequency")
 plt.show()
 
-#analazing proportion change over more coin flips
+#analyzing proportion change over more coin flips
 #removing outer loop for this analysis
 #store the cumulative number of tails after each flip
 cumulative_tails = [0]
@@ -148,4 +148,5 @@ plt.title(f"Proportion of tails over flips count (Probability of tails = {probab
 plt.axhline(probability_tails, color="red", linestyle="-.", label=f"Expected proportion {probability_tails}")
 plt.legend()
 plt.grid(True)
+
 plt.show()
