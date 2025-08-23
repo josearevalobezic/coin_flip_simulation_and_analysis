@@ -9,8 +9,7 @@
 - [Usage](#usage)
 - [Key Insights](#key-insights)
 - [Conclusions](#conclusions)
-- [License](#license) (Optional but Recommended)
-- [Contact](#contact) (Optional)
+- [Contact](#contact)
 
 ## Repository Structure
 ```
@@ -67,8 +66,17 @@ Feel free to modify the parameters within the notebook or script (e.g., number o
 
 ## Key Insights
 *   **Distribution of Outcomes:** The histograms show that the distribution of the number of tails in a fixed number of flips tends to follow a binomial distribution, centering around the expected number of tails (number of flips * probability of tails).
+
+![](images/histogram_fair_coin.png)
+
 *   **Law of Large Numbers:** The plots showing the proportion of tails over the number of flips demonstrate how the observed proportion fluctuates initially but converges towards the theoretical probability (0.5 for a fair coin, or the set probability for a biased coin) as the number of flips increases.
+
+![](images/proportion_fair_coin.png)
+
 *   **Impact of Bias:** Simulating a biased coin clearly shifts the distribution of outcomes and the convergence point of the proportion of tails towards the higher probability outcome.
+
+![](images/histogram_biased_coin.png) ![](images/proportion_biased_coin.png)
+
 
 ## Conclusions
 This project successfully demonstrates the use of Python, NumPy, and Matplotlib to simulate coin flips and visualize fundamental statistical principles. The simulations provide empirical evidence for the expected outcomes of random events and illustrate the powerful concept of the Law of Large Numbers, showing how observed frequencies stabilize around theoretical probabilities over many trials. This analysis serves as a foundational example of how computational tools can be applied to understand probabilistic phenomena.
