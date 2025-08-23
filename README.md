@@ -15,7 +15,8 @@
 ```
 coin_flip_simulation_and_analysis/  ├── README.md 
                                     ├── coin_flip_simulation_and_analysis.ipynb # Your Jupyter Notebook file 
-                                    ├── coin_flip_simulation_and_analysis # separate script 
+                                    ├── coin_flip_simulation_and_analysis # separate script
+                                    ├── requirements.txt # required libraries
                                     └── images/ # Directory for plots and figures │ 
                                         ├── histogram_fair_coin.png │ 
                                         ├── proportion_fair_coin.png │ 
@@ -59,10 +60,10 @@ To run this notebook or script locally, you will need Python installed. It is re
 ## Usage
 You can interact with the analysis in two ways:
 
-1.  **Using the Jupyter Notebook:** Open the `coin_flip_simulation_and_analysis.ipynb` file in a Jupyter environment (like JupyterLab, Jupyter Notebook, or Google Colab). You can run the cells sequentially to see the simulations and visualizations.
-2.  **Running the Python Script (if created):** Execute the `coin_flip_simulation_and_analysis.py` file from your terminal:
+1.  **Using the Jupyter Notebook:** Open the `flip_a_coin_simulation_and_analysis.ipynb` file in a Jupyter environment (like JupyterLab, Jupyter Notebook, or Google Colab). You can run the cells sequentially to see the simulations and visualizations.
+2.  **Running the Python Script:** Execute the `script_flip_coin.py` file from your terminal:
     ```bash
-    python coin_flip_simulation_and_analysis.py
+    python script_flip_coin.py
     ```
     This will run the simulations and display or save the generated plots.
 
