@@ -20,12 +20,16 @@ coin_flip_simulation_and_analysis/  ├── README.md
                                         ├── histogram_fair_coin.png │ 
                                         ├── proportion_fair_coin.png │ 
                                         ├── histogram_biased_coin.png │ 
-                                        ├── proportion_biased_coin.png 
-                                        └── requirements.txt # File listing dependencies (optional but recommended)
+                                        └── proportion_biased_coin.png 
+                                         
 ```
 
 ## Description
 This project explores fundamental probability and statistical concepts through the simulation and analysis of coin flips using Python, specifically leveraging the `numpy` and `matplotlib` libraries. The project demonstrates how simulations can be used to understand theoretical probability distributions and the Law of Large Numbers.
+
+This notebook contains two basic, yet similar, coin flip simulations. The first simulation has two user-defined parameters: flips_per_experiment, which sets the number of coin flips in each experiment, and amount_of_experiments, which determines how many times this experiment is repeated. For each experiment run, the total number of tails is stored in the final_tails list. The final result is a list that records the number of tails for each experiment run. Users can adjust these parameters (flips_per_experiment or/and amount_of_experiments) to observe how the distribution changes with the total number of flips.
+The second simulation also models coin flips, but this time with a large, continuous sequence of flips rather than divided experiments. The purpose of this is to observe how the proportion of tails approaches the expected theoretical distribution as the number of flips increases (demonstrating the Law of Large Numbers). 
+Finally, both simulations are proposed again but with a biased coin. This demonstrates how the distribution changes when the coin is biased and the theoretical probability is different.
 
 ## Analysis Objectives
 The main objectives of this analysis are:
